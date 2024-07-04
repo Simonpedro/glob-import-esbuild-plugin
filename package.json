@@ -1,0 +1,31 @@
+{
+  "name": "glob-import-esbuild-plugin",
+  "version": "1.0.0",
+  "description": "A esbuild plugin to import multiple modules using a glob pattern.",
+  "keywords": [
+    "esbuild",
+    "glob-import",
+    "plugin"
+  ],
+  "homepage": "https://github.com/Simonpedro/glob-import-esbuild-plugin#README",
+  "bugs": {
+    "url": "https://github.com/Simonpedro/glob-import-esbuild-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simonpedro/glob-import-esbuild-plugin.git"
+  },
+  "license": "MIT",
+  "author": "Pedro Simon",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=10.16.0"
+  }
+}
